@@ -21,11 +21,11 @@ class ViewController: UIViewController {
     @IBAction func stepperDidChange(_ sender: UIStepper) {
         numberofPetsLabel.text = "\(Int(sender.value))"
     }
-    
+
     @IBAction func introduceSelfDidTapped( _sender: UIButton) {
         let year = yearSegmentedControl.titleForSegment(at: yearSegmentedControl.selectedSegmentIndex)
         
-        let introduction = "My name is \(firstNameTextField.text!) \(lastNameTextField.text!) and I attend \(schoolnameTextField.text!). I am currently in my \(year!) and I own \(numberofPetsLabel.text!) dogs. It is \(morePetsSwitch.isOn) that I want more pets!"
+        let introduction = "My name is \(firstNameTextField.text!) \(lastNameTextField.text!) and I attend \(schoolnameTextField.text!). I am currently in my \(year!) year and I own \(numberofPetsLabel.text!) dogs. It is \(morePetsSwitch.isOn) that I want more pets!"
         
         let alertController = UIAlertController(title: "My introduction", message: introduction, preferredStyle: .alert)
         let action = UIAlertAction(title: "Nice to meet you!", style: .default, handler: nil)
@@ -35,13 +35,9 @@ class ViewController: UIViewController {
         present(alertController, animated: true, completion: nil)
     }
     
-           
-
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        
     }
     
     
