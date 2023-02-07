@@ -3,7 +3,7 @@ This app introduce student by entering the info and display the information as a
 
 
 App Walk-though
-https://imgur.com/a/tfRzafT
+![](name-of-giphy.gif)
 
 Required Features
 [x]1. App displays an image of a school's logo
