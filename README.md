@@ -1,15 +1,25 @@
-Introducestudent
-This app introduce student by entering the info and display the information as alert
+# Introduction iOS App
+
+This is a Introduction app that allows users to introduce themselves by providing their name, school name, academic year, number of pets they own, and if they want more pets.
+
+## Features
+
+- Input fields for first name, last name, and school name.
+- Segmented control to select the academic year.
+- Stepper to select the number of pets owned.
+- Switch to indicate whether the user wants more pets.
+- Introduce button to generate an introduction based on the provided information.
+- Alert to display the generated introduction.
+
+## Technology
+
+This app is built using the Swift programming language and utilizes the UIKit framework for building the user interface.
+
+## GIF Walkthrough
 
 
-App Walk-though
 ![](Codegif.gif)
 
+## License
 
-Required Features
-[x]1. App displays an image of a school's logo
-[x]2. App has three textfields for first, last, and school names
-[x]3. App has a segmented control that changes student year
-[x]4. Number of pet matches label is increased/decreased by stepper
-[x]5. Switch makes a statement about wanting more pets or not(true/false)
-[x]6. Introduce yourself button shows alert box with an introduciton and dismiss button
+This project is licensed under the MIT License.
